@@ -3,32 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Irrigador Automático</title>
-    <h1>Irrigador Automático</h1>
-    <h4>página inicial</h4>
-    <style>
-        body{
-            front-family:arial, sans-serif;
-            margin:0;
-            padding:0;
-            background-color: #f4f4f4
-        }
-        header{
-            background-color: #4CAF50;
-            color:white
-            padding: 10px 0;
-        
-
-        }
-
-    </style>
-    
-
+    <title>Irrigadores Automáticos</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class=""
+    <header>
+        <div class="header-content">
+            <h1>Bem-vindo aos Irrigadores Automáticos</h1>
+            <p>Manter seu jardim sempre verde e saudável nunca foi tão fácil.</p>
+        </div>
     </header>
-    <div class=""texto"
-    <h1> class ="paragrafo-tela-inicial"></h1>
+    <nav>
+        <ul>
+            <li><a href="#home">Início</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#features">Recursos</a></li>
+            <li><a href="#contact">Contato</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="home">
+            <h2>Automatize a Irrigação do Seu Jardim</h2>
+            <p>Descubra como nossos irrigadores automáticos podem transformar o cuidado do seu jardim.</p>
+        </section>
+        <section id="about">
+            <h2>Sobre Nós</h2>
+            <p>Somos líderes em soluções de irrigação automáticas, com anos de experiência e inovação.</p>
+        </section>
+        <section id="features">
+            <h2>Recursos</h2>
+            <ul>
+                <li>Irrigação programável</li>
+                <li>Sensores de umidade do solo</li>
+                <li>Controle remoto via app</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contato</h2>
+            <p>Entre em contato conosco para saber mais sobre nossos produtos.</p>
+            <form action="#">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Irrigadores Automáticos. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
